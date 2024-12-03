@@ -1,29 +1,60 @@
-<section id="menu" class="menu">
-    <h2>Our Menu</h2>
-    <div class="menu-items">
-        <!-- Pizza -->
-        <div class="menu-item">
-            <img src="pizza.jpg" alt="Pizza">
-            <h3>Pizza</h3>
-            <p>Cheesy and delicious with a variety of toppings to choose from.</p>
-            <p class="price">$9.99</p>
-            <button class="btn">Add to Cart</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Food Ordering</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">JPLJCETMC'S KITCHEN</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+              <li><a href="aboutus.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contactpage.html">Contact</a></li>
+            <li><a href="index.html">Log In</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        
+        <h1>Delicious Food Delivered Fast</h1>
+        <p>Order your favorite meals from the comfort of your home.</p>
+        <a href="#menu" class="btn">Order Now</a>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="img/pizza.jpg" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>Cheesy and delicious. Starting at $9.99</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="menu-item">
+                <img src="img/burger.jpg" alt="Burger">
+                <h3>Burger</h3>
+                <p>Juicy and satisfying. Starting at $5.99</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="menu-item">
+                <img src="img/drinks.jpg" alt="Drinks">
+                <h3>Drinks</h3>
+                <p>Refreshing and flavorful. Starting at $7.99</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
         </div>
-        <!-- Burger -->
-        <div class="menu-item">
-            <img src="burger.jpg" alt="Burger">
-            <h3>Burger</h3>
-            <p>Juicy grilled patty with fresh lettuce, tomato, and your favorite sauces.</p>
-            <p class="price">$5.99</p>
-            <button class="btn">Add to Cart</button>
-        </div>
-        <!-- Drinks -->
-        <div class="menu-item">
-            <img src="drinks.jpg" alt="Drinks">
-            <h3>Pasta</h3>
-            <p>Refreshing and flavorful drinks.</p>
-            <p class="price">$7.99</p>
-            <button class="btn">Add to Cart</button>
-        </div>
-    </div>
-</section>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 FoodOrder. All rights reserved.</p>
+    </footer>
+</body>
+</html>

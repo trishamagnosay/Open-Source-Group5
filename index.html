@@ -3,58 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
-    <title>Food Ordering</title>
+    <title>Food Order Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="navbar">
-            <div class="logo">JPLJCETMC'S KITCHEN</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#menu">Menu</a></li>
-              <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="contactpage.html">Contact</a></li>
-            <li><a href="login.html">Log In</a></li>
+    <div class="container">
+        <div class="food-image">
+            <img src="img/food logo.jpg" alt="Delicious Food"> </div>  
+        <div class="login-form">
+            <h1>Login</h1>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="username@gmail.com" required>
 
-            </ul>
-        </nav>
-    </header>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
 
-    <section id="home" class="hero">
-        
-        <h1>Delicious Food Delivered Fast</h1>
-        <p>Order your favorite meals from the comfort of your home.</p>
-        <a href="#menu" class="btn">Order Now</a>
-    </section>
-
-    <section id="menu" class="menu">
-        <h2>Our Menu</h2>
-        <div class="menu-items">
-            <div class="menu-item">
-                <img src="img/pizza.jpg" alt="Pizza">
-                <h3>Pizza</h3>
-                <p>Cheesy and delicious. Starting at $9.99</p>
-                <a href="#" class="btn">Order Now</a>
-            </div>
-            <div class="menu-item">
-                <img src="img/burger.jpg" alt="Burger">
-                <h3>Burger</h3>
-                <p>Juicy and satisfying. Starting at $5.99</p>
-                <a href="#" class="btn">Order Now</a>
-            </div>
-            <div class="menu-item">
-                <img src="img/drinks.jpg" alt="Drinks">
-                <h3>Drinks</h3>
-                <p>Refreshing and flavorful. Starting at $7.99</p>
-                <a href="#" class="btn">Order Now</a>
-            </div>
+                <a href="menu.html">
+                    <button type="button">Sign in</button>
+                </a>
+                
+                <a href="#" class="forgot-password">Forgot Password?</a>
+                <div class="social-login">
+                    <p>or continue with</p>
+                    <button type="button" class="google-btn"><i class="fab fa-google"></i> Google</button>
+                    <button type="button" class="facebook-btn"><i class="fab fa-facebook"></i> Facebook</button>
+                </div>
+                <p>Don't have an account yet? <a href="#">Register for free</a></p>
+            </form>
         </div>
-    </section>
-
-    <footer class="footer">
-        <p>&copy; 2024 FoodOrder. All rights reserved.</p>
-    </footer>
+    </div>
 </body>
 </html>
